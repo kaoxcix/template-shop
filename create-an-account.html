@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Shopix</title>
+
+    <!--TODO: Need Local / Minify-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Serif"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/shopix.css">
+</head>
+<body>
+
+<!--TODO: Remove Include HTML-->
+<div w3-include-html="./components/_topbar.html"></div>
+<div w3-include-html="./components/_navbar.html"></div>
+
+<section class="content-login">
+    <div class="container pt-4 pb-4">
+        <div class="row justify-content-center">
+            <div class="col col-12 col-md-8 col-lg-6">
+                <div class="login">
+                    <h2 class="pb-3 text-center"><strong>Register,</strong><br>
+                        <small>with your email.</small>
+                    </h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="firstName" class="form-control is-valid" placeholder="First Name" value="Peter"
+                                   required>
+                            <div class="invalid-feedback">
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="lastName" class="form-control is-valid" placeholder="Last Name" value="King"
+                                   required>
+                            <div class="invalid-feedback">
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control is-valid" placeholder="Email"
+                                   value="peterking@example.com" required>
+                            <div class="invalid-feedback">
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control is-invalid" placeholder="Password" required>
+                            <div class="invalid-feedback">Password can't be blank and is too short (minimum is 7
+                                characters)
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary-snk btn-block text-uppercase">Create an Account
+                        </button>
+                    </form>
+                    
+                    <p class="text-center pt-4 pb-1 mb-0">
+                        <small>Already have an account? <a href="/login.html">Login!</a></small>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--TODO: Remove Include HTML-->
+<div w3-include-html="./components/_footer.html"></div>
+
+<!-- JavaScript includes -->
+<!--TODO: Need Local / Minify-->
+<script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/shopix.js"></script>
+
+<!--TODO: Remove Include HTML-->
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>
+    w3.includeHTML();
+</script>
+
+</body>
+</html>

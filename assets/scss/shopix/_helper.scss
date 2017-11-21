@@ -1,0 +1,39 @@
+.badge-primary-snk {
+    background-color: $primary-color !important;
+    color: $font-white !important;
+    font-weight: 400 !important;
+}
+
+.btn-primary-snk {
+    background-color: $primary-color !important;
+    color: $font-white !important;
+
+    &:hover {
+        background-color: darken($primary-color, 10%) !important;
+        color: $font-white !important;
+    }
+}
+
+.btn-outline-primary-snk {
+    background-color: transparent;
+    border-color: darken($primary-color, 20%);
+    color: darken($primary-color, 20%);
+
+    &:hover {
+        //border-color: $primary-color;
+        //color: $primary-color;
+    }
+}
+
+.child-img-hover-zoom {
+    overflow: hidden;
+
+    & > img {
+        transition: all 0.3s;
+
+    }
+
+    & > img:hover {
+        transform: scale(1.2);
+    }
+}
