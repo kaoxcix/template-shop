@@ -170,6 +170,11 @@ a {
                     &:hover {
                         background-color: transparent;
                     }
+                    
+                    &.active,
+                    &:active {
+                        color: inherit;
+                    }
 
                     &.btn {
                         margin-top: 10px;
