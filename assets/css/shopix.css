@@ -359,27 +359,27 @@ a {
 /*-----------------------------------
     Login
 -----------------------------------*/
-.content-login .login {
+.content-user-auth .box, .content-user-auth .login, .content-user-auth .create-an-account, .content-user-auth .recover-password {
   background-color: #FFFFFF;
   padding: 3em;
   border-radius: 2px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
-.content-login .btn-facebook {
+.content-user-auth .login .btn-facebook {
   background-color: #3d5a96;
   color: #F2F6F9; }
-  .content-login .btn-facebook:hover {
+  .content-user-auth .login .btn-facebook:hover {
     background-color: #2e4472;
     color: #F2F6F9; }
-.content-login .btn-twitter {
+.content-user-auth .login .btn-twitter {
   background-color: #59adec;
   color: #F2F6F9; }
-  .content-login .btn-twitter:hover {
+  .content-user-auth .login .btn-twitter:hover {
     background-color: #2b96e7;
     color: #F2F6F9; }
-.content-login .btn-google-plus {
+.content-user-auth .login .btn-google-plus {
   background-color: #d9453d;
   color: #F2F6F9; }
-  .content-login .btn-google-plus:hover {
+  .content-user-auth .login .btn-google-plus:hover {
     background-color: #be2d25;
     color: #F2F6F9; }
 
