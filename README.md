@@ -16,8 +16,8 @@
        │   ├── payment
 [ ]    │   │   └── money-transfer.html
        │   ├── product
-[ ]    │   │   ├── product-detail.html
-[ ]    │   │   └── products.html
+[x]    │   │   ├── product-detail.html
+[x]    │   │   └── products.html
        │   └── users
 [x]    │       ├── auth-create-an-account-done.html
 [x]    │       ├── auth-create-an-account-input.html
