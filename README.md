@@ -25,7 +25,6 @@
 [x]    │       ├── auth-recover-password-done.html
 [x]    │       ├── auth-recover-password-input.html
 [ ]    │       ├── my-account.html
-[ ]    │       ├── my-message.html
 [ ]    │       ├── my-order.html
 [x]    │       ├── shopping-cart.html
 [x]    │       └── wish-list.html
