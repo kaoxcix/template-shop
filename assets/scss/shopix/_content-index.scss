@@ -76,36 +76,6 @@
     }
   }
 
-  & .product-category {
-    padding: 20px 0 10px 0;
-    text-align: center;
-    color: $primary-color;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    overflow: hidden;
-    white-space: nowrap;
-
-    &::before {
-      content: "";
-      background: rgba(0, 0, 0, .1);
-      width: 20%;
-      height: 2px;
-      display: inline-block;
-      vertical-align: middle;
-      margin: 0 10px 0 0;
-    }
-
-    &::after {
-      content: "";
-      background: rgba(0, 0, 0, .1);
-      width: 20%;
-      height: 2px;
-      display: inline-block;
-      vertical-align: middle;
-      margin: 0 0 0 10px;
-    }
-  }
-
   & .product-list {
     padding-top: 10px;
     padding-bottom: 10px;

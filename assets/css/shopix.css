@@ -45,6 +45,13 @@
 .primary-color {
   color: #605C83; }
 
+.number-spinner {
+  min-width: 80px;
+  max-width: 100px; }
+
+.outline-primary-custom {
+  border-color: #605c83; }
+
 /*-----------------------------------
 	General Styles
 -----------------------------------*/
@@ -55,7 +62,8 @@ html {
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #EFEFEF;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #1E1E1E; }
 
 ul {
   list-style-type: none; }
@@ -151,7 +159,7 @@ a {
       .navbar .navbar-nav .cart-dropdown .dropdown-menu .cart-item-list .cart-item-image {
         height: 70px;
         width: 70px;
-        object-fit: cover; }
+        object-fit: contain; }
       .navbar .navbar-nav .cart-dropdown .dropdown-menu .cart-item-list .cart-item-name {
         font-weight: bold;
         white-space: normal;
@@ -244,6 +252,31 @@ a {
         color: #F2F6F9;
         background-color: #4a4765; }
 
+.section-category {
+  padding: 20px 0 10px 0;
+  text-align: center;
+  color: #605C83;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap; }
+  .section-category::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.1);
+    width: 20%;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0; }
+  .section-category::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.1);
+    width: 20%;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px; }
+
 /*-----------------------------------
     Index
 -----------------------------------*/
@@ -298,30 +331,6 @@ a {
     .content-index .deal .deal-item .btn-deal {
       position: absolute;
       bottom: 30px; }
-.content-index .product-category {
-  padding: 20px 0 10px 0;
-  text-align: center;
-  color: #605C83;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  overflow: hidden;
-  white-space: nowrap; }
-  .content-index .product-category::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.1);
-    width: 20%;
-    height: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 10px 0 0; }
-  .content-index .product-category::after {
-    content: "";
-    background: rgba(0, 0, 0, 0.1);
-    width: 20%;
-    height: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 10px; }
 .content-index .product-list {
   padding-top: 10px;
   padding-bottom: 10px; }
@@ -378,7 +387,7 @@ a {
             color: #605C83; }
 
 /*-----------------------------------
-    User
+    User Auth
 -----------------------------------*/
 .content-user-auth .box, .content-user-auth .login, .content-user-auth .create-an-account, .content-user-auth .recover-password {
   background-color: #FFFFFF;
@@ -407,30 +416,19 @@ a {
 /*-----------------------------------
     Projects
 -----------------------------------*/
-.content-products .product-category {
-  padding: 20px 0 10px 0;
-  text-align: center;
-  color: #605C83;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  overflow: hidden;
-  white-space: nowrap; }
-  .content-products .product-category::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.1);
-    width: 20%;
-    height: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 10px 0 0; }
-  .content-products .product-category::after {
-    content: "";
-    background: rgba(0, 0, 0, 0.1);
-    width: 20%;
-    height: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 10px; }
+.content-products .img-block .img-full-block img {
+  max-height: 360px; }
+.content-products .img-block .img-thumbnail-block img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover; }
+  .content-products .img-block .img-thumbnail-block img:hover {
+    cursor: pointer; }
+  .content-products .img-block .img-thumbnail-block img:hover, .content-products .img-block .img-thumbnail-block img.active, .content-products .img-block .img-thumbnail-block img:active {
+    border-color: #4a4765 !important; }
+  .content-products .img-block .img-thumbnail-block img.focus, .content-products .img-block .img-thumbnail-block img:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(96, 92, 131, 0.4); }
 .content-products .product-list {
   padding-top: 10px;
   padding-bottom: 10px; }
@@ -485,5 +483,13 @@ a {
           font-size: 1.4em; }
           .content-products .product-list .product-card .product-action i.fa-cart-plus:hover {
             color: #605C83; }
+
+/*-----------------------------------
+    User Module
+-----------------------------------*/
+.content-user-module .product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain; }
 
 /*# sourceMappingURL=shopix.css.map */

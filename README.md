@@ -27,8 +27,8 @@
 [ ]    │       ├── my-account.html
 [ ]    │       ├── my-message.html
 [ ]    │       ├── my-order.html
-[ ]    │       ├── shopping-cart.html
-[ ]    │       └── wish-list.html
+[x]    │       ├── shopping-cart.html
+[x]    │       └── wish-list.html
 [x]    ├── index.html
 [x]    └── login.html (redirect to auth-login.html)
 ```

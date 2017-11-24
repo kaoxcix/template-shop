@@ -12,6 +12,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-color: $body-bg-color;
     font-weight: 400;
+    color: $font-black;
 }
 
 ul {
@@ -190,7 +191,7 @@ a {
                     & .cart-item-image {
                         height: 70px;
                         width: 70px;
-                        object-fit: cover;
+                        object-fit: contain;
                     }
 
                     & .cart-item-name {
@@ -326,5 +327,35 @@ a {
             }
         }
     }
-
 }
+
+.section-category {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    color: $primary-color;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+
+    &::before {
+        content: "";
+        background: rgba(0, 0, 0, .1);
+        width: 20%;
+        height: 2px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 10px 0 0;
+    }
+
+    &::after {
+        content: "";
+        background: rgba(0, 0, 0, .1);
+        width: 20%;
+        height: 2px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0 0 10px;
+    }
+}
+

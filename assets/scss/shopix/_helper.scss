@@ -87,3 +87,12 @@
 .primary-color {
     color: $primary-color;
 }
+
+.number-spinner {
+    min-width: 80px;
+    max-width: 100px;
+}
+
+.outline-primary-custom {
+    border-color: darken($primary-color, 0%);
+}
