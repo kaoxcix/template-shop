@@ -492,4 +492,11 @@ a {
   height: 100px;
   object-fit: contain; }
 
+/*-----------------------------------
+    General
+-----------------------------------*/
+.content-contact .map {
+  height: 400px;
+  width: 100%; }
+
 /*# sourceMappingURL=shopix.css.map */

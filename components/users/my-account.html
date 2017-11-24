@@ -20,14 +20,61 @@
 <div w3-include-html="/components/_topbar.html"></div>
 <div w3-include-html="/components/_navbar.html"></div>
 
-<section class="content-xxxx">
-<!--CONTENT HERE-->
+<section class="content-user-module">
+    <div class="container pb-3">
+        <p class="section-category">Welcome, Sadayu Thongchan</p>
+        <div class="row justify-content-center">
+            <div class="col col-12 col-md-8 col-lg-6">
+                <div class="create-an-account">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstName">Change First Name</label>
+                            <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp"
+                                   placeholder="Enter First Name" value="Peter">
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Change Last Name</label>
+                            <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp"
+                                   placeholder="Enter Last Name" value="King">
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Change Email ID</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                   placeholder="Enter email" value="peterking@example.com">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="new-password">New Password</label>
+                            <input type="password" class="form-control" id="new-password" placeholder="Password">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="repeat-password">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeat-password" placeholder="Password">
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary-custom text-uppercase">Update an Account
+                            </button>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </section>
 
 <footer class="footer">
-<!--TODO: Remove Include HTML-->
-<div w3-include-html="/components/_footer-top.html"></div>
-<div w3-include-html="/components/_footer-bottom.html"></div>
+    <!--TODO: Remove Include HTML-->
+    <div w3-include-html="/components/_footer-top.html"></div>
+    <div w3-include-html="/components/_footer-bottom.html"></div>
 </footer>
 
 <!-- JavaScript includes -->

@@ -11,10 +11,9 @@
 [x]    │   ├── _navbar.html
 [x]    │   ├── _topbar.html
        │   ├── general
-[ ]    │   │   ├── contact.html
-[ ]    │   │   └── help.html
+[x]    │   │   ├── contact.html
        │   ├── payment
-[ ]    │   │   └── money-transfer.html
+[x]    │   │   └── money-transfer.html
        │   ├── product
 [x]    │   │   ├── product-detail.html
 [x]    │   │   └── products.html
